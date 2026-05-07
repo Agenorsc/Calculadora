@@ -1,4 +1,4 @@
-package src.main.java.com.exemplo;
+package com.exemplo;
 
 public class Calculadora {
 
