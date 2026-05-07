@@ -1,9 +1,11 @@
-package com.exemplo;
+package src.test.java.com.exemplo;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
+import src.main.java.com.exemplo.Calculadora;
 
 public class CalculadoraTest {
 
