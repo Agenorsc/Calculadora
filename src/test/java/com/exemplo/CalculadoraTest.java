@@ -5,16 +5,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import src.main.java.com.exemplo.Calculadora;
-
 public class CalculadoraTest {
-
     Calculadora calc = new Calculadora();
 
-    // Teste Individual
     @Test
     void testeSomaSimples() {
-        assertEquals(10, calc.somar(7, 3), "7 + 3 deve ser 10");
+        assertEquals(10, calc.somar(7, 3));
     }
 
     @Test
@@ -22,7 +18,6 @@ public class CalculadoraTest {
         assertThrows(ArithmeticException.class, () -> calc.dividir(10, 0));
     }
 
-    // Teste em Grupo (Validação em Massa)
     @ParameterizedTest
     @CsvSource({
         "10, 5, 2",
