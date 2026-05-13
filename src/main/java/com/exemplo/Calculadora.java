@@ -1,22 +1,37 @@
 package com.exemplo;
 
-public class Calculadora {
+/**
+ * Classe responsavel por operacoes matematicas basicas.
+ */
+public final class Calculadora { // final evita erro de DesignForExtension
 
-    public double somar(double a, double b) {
+    /**
+     * Soma dois numeros.
+     */
+    public double somar(final double a, final double b) { // final nos parametros
         return a + b;
     }
 
-    public double subtrair(double a, double b) {
+    /**
+     * Subtrai dois numeros.
+     */
+    public double subtrair(final double a, final double b) {
         return a - b;
     }
 
-    public double multiplicar(double a, double b) {
+    /**
+     * Multiplica dois numeros.
+     */
+    public double multiplicar(final double a, final double b) {
         return a * b;
     }
 
-    public double dividir(double a, double b) {
+    /**
+     * Divide dois numeros.
+     */
+    public double dividir(final double a, final double b) {
         if (b == 0) {
-            throw new ArithmeticException("Divisão por zero não permitida.");
+            throw new ArithmeticException("Divisao por zero nao permitida.");
         }
         return a / b;
     }
