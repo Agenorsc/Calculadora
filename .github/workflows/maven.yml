@@ -19,12 +19,12 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    - name: Build e Testes Unitários
-      # Aqui o GitHub roda o comando que você testou no VS Code!
-      run: mvn clean test
+    - name: Rodar Lint, Testes e Gerar Artefato
+      # Valida o padrão de código, roda os testes e cria o JAR
+      run: mvn checkstyle:check clean package
 
     - name: Build Docker Image
-      # Aqui ele simula a criação da imagem Docker
+      # Cria a imagem Docker usando o arquivo JAR
       run: |
         docker build -t minha-calculadora:latest .
         echo "Imagem Docker criada com sucesso!"
