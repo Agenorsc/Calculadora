@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\ageno\eclipse-workspace\Calculadora\src\main\java\com\exemplo\App.java">
+<error line="1" severity="error" message="O arquivo não termina com uma linha em branco." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="O arquivo package-info.java está faltando." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="5" column="1" severity="error" message="Classes utilitárias não deveriam ter construtores públicos ou com visibilidade de pacote." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="7" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="7" column="29" severity="error" message="O parâmetro args deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="25" severity="error" message="&apos;5000&apos; é um número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="11" column="5" severity="error" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="11" column="43" severity="error" message="O parâmetro porta deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 84)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="41" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="55" column="28" severity="error" message="&apos;400&apos; é um número mágico." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="64" column="40" severity="error" message="O parâmetro json deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="64" column="53" severity="error" message="O parâmetro chave deve ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="72" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="76" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\ageno\eclipse-workspace\Calculadora\src\main\java\com\exemplo\Calculadora.java">
+<error line="11" severity="error" message="A linha contém mais do que 80 caracteres (foram encontrados 81)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="11" severity="error" message="A tag @return deve estar presente e ter uma descrição." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="38" severity="error" message="Esperada a tag @param para &apos;a&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="54" severity="error" message="Esperada a tag @param para &apos;b&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" severity="error" message="A tag @return deve estar presente e ter uma descrição." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="41" severity="error" message="Esperada a tag @param para &apos;a&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="57" severity="error" message="Esperada a tag @param para &apos;b&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" severity="error" message="A tag @return deve estar presente e ter uma descrição." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="44" severity="error" message="Esperada a tag @param para &apos;a&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="60" severity="error" message="Esperada a tag @param para &apos;b&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" severity="error" message="A tag @return deve estar presente e ter uma descrição." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" column="40" severity="error" message="Esperada a tag @param para &apos;a&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" column="56" severity="error" message="Esperada a tag @param para &apos;b&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>
